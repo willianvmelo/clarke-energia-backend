@@ -76,7 +76,7 @@ python3 manage.py runserver
 ### Usando Docker
 
 - Crie um arquivo .env como mostrado no passo 4. 
-- Contrua e inicio o projeto com:
+- Construa e inicie o projeto com:
 ```
 docker-compose up --build
 ```
@@ -91,9 +91,9 @@ docker-compose up --build
 
 ## 5. Comandos Principais <a name="comandos-principais"></a>
 
-- python manage.py runserver: Inicia o servidor de desenvolvimento.
-- python manage.py migrate: Aplica as migrações do banco de dados.
-- python manage.py createsuperuser: Cria um usuário administrador.
+- python3 manage.py runserver: Inicia o servidor de desenvolvimento.
+- python3 manage.py migrate: Aplica as migrações do banco de dados.
+- python3 manage.py createsuperuser: Cria um usuário administrador.
 
 ## 6. Estrutura de URLs <a name="estrutura-de-urls"></a>
 
