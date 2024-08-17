@@ -117,7 +117,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Configurações CORS
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    "https://clarke-energia-frontend-gamma.vercel.app",
 ]
 
 CORS_ALLOW_METHODS = [
